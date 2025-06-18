@@ -1,3 +1,4 @@
+/* Reset básico */
 * {
     margin: 0;
     padding: 0;
@@ -5,61 +6,59 @@
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f3f7f0;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background-color: #eaf7ea;
+    color: #2e4d2e;
     line-height: 1.6;
 }
 
 header {
-    background-color: #6aa84f;
+    background-color: #3a773a;
     color: white;
+    padding: 20px;
     text-align: center;
-    padding: 2rem 1rem;
 }
 
 header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+    font-size: 2.5em;
 }
 
-.intro {
-    padding: 2rem;
-    text-align: center;
+header p {
+    font-size: 1.2em;
 }
 
-.intro img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 1rem;
-    margin-bottom: 1rem;
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.destaques {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #e2f0d9;
+.conteudo, .valores {
+    margin-bottom: 30px;
 }
 
-.box {
-    background: white;
-    padding: 1.5rem;
-    border-radius: 1rem;
-    width: 300px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+h2 {
+    color: #3a773a;
+    margin-bottom: 10px;
 }
 
-.box h2 {
-    color: #38761d;
-    margin-bottom: 0.5rem;
+ul {
+    list-style: none;
+}
+
+ul li {
+    background-color: #cfe9cf;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 footer {
-    background: #274e13;
+    background-color: #3a773a;
     color: white;
     text-align: center;
-    padding: 1rem;
-    font-size: 0.9rem;
+    padding: 15px;
 }

@@ -1,35 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho - Campo e Cidade</title>
+    <title>Projeto Agrinho 2025</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Agrinho 2025</h1>
-        <p>Festejando a Conexão entre o Campo e a Cidade</p>
+        <h1>Projeto Agrinho 2025</h1>
+        <p>Festejando a conexão entre o campo e a cidade</p>
     </header>
 
-    <section class="intro">
-        <img src="https://cdn.pixabay.com/photo/2015/06/01/08/56/agriculture-793879_960_720.jpg" alt="Imagem campo e cidade">
-        <p>O projeto Agrinho valoriza a convivência entre o campo e a cidade, destacando a importância da cooperação, sustentabilidade e cultura compartilhada.</p>
-    </section>
+    <main>
+        <section class="conteudo">
+            <h2>A importância do campo e da cidade caminhando juntos</h2>
+            <p>
+                O campo e a cidade estão interligados de diversas formas. O campo produz os alimentos que abastecem a cidade, enquanto a cidade oferece tecnologia, educação e serviços que ajudam o campo a se modernizar.
+            </p>
+            <p>
+                Festejar essa conexão é reconhecer que juntos somos mais fortes. A harmonia entre o rural e o urbano promove desenvolvimento sustentável, qualidade de vida e crescimento para todos.
+            </p>
+        </section>
 
-    <section class="destaques">
-        <div class="box">
-            <h2>Campo</h2>
-            <p>Berço da produção de alimentos, tradições e saberes rurais.</p>
-        </div>
-        <div class="box">
-            <h2>Cidade</h2>
-            <p>Centro de inovação, consumo e serviços que se conectam com o campo.</p>
-        </div>
-    </section>
+        <section class="valores">
+            <h2>Por que valorizar essa conexão?</h2>
+            <ul>
+                <li>🌾 Fortalecimento da agricultura e da economia local</li>
+                <li>🌱 Preservação ambiental e práticas sustentáveis</li>
+                <li>🤝 Cooperação entre produtores rurais e consumidores urbanos</li>
+                <li>💡 Inovação, tecnologia e desenvolvimento para todos</li>
+            </ul>
+        </section>
+    </main>
 
     <footer>
-        <p>Desenvolvido para o projeto Alura | Agrinho 2025 🌱</p>
+        <p>&copy; 2025 Projeto Agrinho - Todos os direitos reservados.</p>
     </footer>
 </body>
 </html>
